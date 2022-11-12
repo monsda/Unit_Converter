@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="/index.js"></script>
+        <div class="container">
+            <div class="header">
+                <label id="heading" for="num-input">Metric/Imperial Unit Conversion</label>
+                <input type="text" id="num-input">
+                <button id="convert-btn">Convert</button>
+            </div>
+            <div class="sub-container">
+                <h1 class="tag">Length (Meter/Feet)</h1>
+                <p class="display" id="lengthdisplay">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+            </div>
+            <div class="sub-container">
+                <h1 class="tag">Volume (Liters/Gallons)</h1>
+                <p class="display" id="volumedisplay"></p>
+            </div>
+            <div class="sub-container">
+                <h1 class="tag">Mass (Kilograms/Pounds)</h1>
+                <p class="display" id="massdisplay"></p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;;
+}
+
+body{
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    height: 729px;
+    border: 1px solid aquamarine;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 280px;
+    background-color: #6943FF;
+}
+
+#heading{
+    width: 448px;
+    height: 38px;
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+}
+
+#num-input {
+    outline: none;
+    caret-color: white;
+    background-color: #6943FF;
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+#convert-btn{
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sub-container{
+    width: 500px;
+    height: 108px;
+    background-color: white;
+    margin: 0px 25px;
+    text-align: center;
+    padding: 31px 77px 18.57px 77px;
+}
+
+.tag{
+    color: #5A537B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.display{
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+}
