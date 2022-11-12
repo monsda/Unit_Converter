@@ -69,6 +69,10 @@ body{
     line-height: 24px;
 }
 
+#convert-btn:active{
+    border: 2px solid grey;
+}
+
 .sub-container{
     width: 500px;
     height: 108px;
